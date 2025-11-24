@@ -1,7 +1,9 @@
 package com.example.flashcardapp
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
+import android.widget.Button
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -24,6 +26,16 @@ class MainActivity : AppCompatActivity() {
             flashcard_question.visibility = View.INVISIBLE
             flashcard_answer.visibility = View.VISIBLE
         }
+        flashcard_answer.setOnClickListener {
+            flashcard_question.visibility = View.VISIBLE
+            flashcard_answer.visibility = View.INVISIBLE
+        }
+        val ButtonAdd=findViewById<Button>(R.id.button_add)
+        ButtonAdd.setOnClickListener {
+            val intent = Intent(this, AddCard::class.java)
+            startActivity(intent)
+        }
+
 
     }
 }
