@@ -3,7 +3,9 @@
 ## Lab 1
 
 ### App Description
-`TODO://` Add app description
+Flashcard App lets you create, save, and review cards anytime.
+Study smarter, learn faster, and keep knowledge at your fingertips.
+
 
 ### App Walk-though
 
@@ -16,7 +18,18 @@
 - [X] Add a view for the back side of the flashcard to display the answer
 - [X] Build in logic to show the answer side when the card is tapped
 - [X] Push code to GitHub
-## Optional
-- [ ] Toggle the flashcard between the question side and the answer side
-- [ ] Style the question and answer side of the card to better distinguish between the two sides
-- [ ] Add selectable multiple choice answers beneath the card
+
+## Lab 2
+
+### App Walk-though
+
+<img src="Lab2.gif" width=200><br>
+
+
+## Required
+- [X] Add a "+" button that takes the user to new "Add Card Screen"
+- [X] Add a Cancel button to the "Add Card Screen"
+- [X] Add a two fields to the "Add Card Screen" that will allow the user to enter the question and the answer
+- [X] Add a Save button that will dismiss "Add Card Screen" and return to the Main Activity where the user can see the card they just created
+- [X] Push code to GitHub
+
